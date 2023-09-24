@@ -5,7 +5,10 @@ import Navbar from "../Navbar/Navbar";
 const MainHeader = () => {
     return (
         <div>
+            <div className="px-36">
             <Navbar></Navbar>
+            
+            </div>
             <div>
                 <Outlet></Outlet>
             </div>

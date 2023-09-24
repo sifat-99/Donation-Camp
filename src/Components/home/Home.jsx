@@ -11,7 +11,7 @@ const Home = () => {
 
 
     return (
-        <div className=" max-w-7xl mx-auto">
+        <div className=" px-36 mx-auto">
             <Banner></Banner>
             <AllCategoryCards cards={cards}></AllCategoryCards>
         </div>

@@ -11,10 +11,10 @@ const Card = ({ card }) => {
     {
         <div 
         style={{background: `${bg_color}`}} 
-        className={`flex max-w-[24rem] max-h-72 flex-col rounded-xl  text-gray-700 shadow-md `}>
+        className={`flex w-96 max-h-72 flex-col rounded-xl mt-6  text-gray-700 shadow-md `}>
       <div className={`relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none`}>
         <img
-        className={`h-[194px]`}
+        className={`h-[194px] w-full rounded-lg`}
           src={image}
           alt="ui/ux review check"
         />
