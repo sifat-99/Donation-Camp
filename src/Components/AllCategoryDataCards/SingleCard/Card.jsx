@@ -2,12 +2,8 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const Card = ({ card }) => {
-  //   console.log(card);
-
-  const { id,title, image, bg_color, button_color, text_color, button_text } =
+  const { id, title, image, bg_color, button_color, text_color, button_text } =
     card;
-
-  // console.log(button_color)
   return (
     <Link to={`/details/${id}`}>
       <div>
