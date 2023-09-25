@@ -1,17 +1,41 @@
-import PropTypes from 'prop-types'
+import { useEffect, useState } from "react";
+import Piechart from "./Piechart";
 
-const PIchart = ({totalAmount}) => {
-  // console.log(totalAmount)
+
+const PIchart = () => {
+
+  const [data, setData] = useState([]);
+  const datas = localStorage?.getItem('donation')||"[]";
+  const dataParse = JSON.parse(datas);
+  let donationAmount = 0;
+  dataParse.forEach(element => {
+    donationAmount += element.donation_amount;
+    
+  }
+  );
+  useEffect(() => {
+    fetch('/resources.json')
+    .then(res => res.json())
+    .then(data => setData(data))
+  }
+  , [])
+
+let totalAmount = 0;
+
+  data.forEach(element => {
+    totalAmount += element.donation_amount;
+    
+  }
+  );
+// console.log(totalAmount);
   return (
-    <div>
-        <h1>{totalAmount}</h1>
+    <div className="flex justify-center items-center">
+        <Piechart 
+        totalAmount={totalAmount}
+        donationAmount={donationAmount}
+        ></Piechart>
     </div>
   );
 };
-
-PIchart.propTypes = 
-{
-  totalAmount: PropTypes.number
-}
 
 export default PIchart;

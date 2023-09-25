@@ -29,7 +29,7 @@ const Donation = () => {
                 noData ? <h1 className="text-6xl flex justify-center items-center mt-48">{noData}</h1> : 
                 <div className="grid grid-cols-2 gap-6 mx-32 mt-16">
                 {
-                donationCard.map(card => <DonationSingleCard key={card.id} SingleCard={card}></DonationSingleCard>)
+                    donationCard.map(card => <DonationSingleCard key={card.id} SingleCard={card}></DonationSingleCard>)
                 }
                 </div>
             }
