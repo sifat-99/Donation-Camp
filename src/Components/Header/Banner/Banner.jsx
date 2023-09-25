@@ -2,7 +2,7 @@ const Banner = () => {
   return (
     <section
       style={{
-        backgroundImage: `url("/public/headerBG.png"), linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95))`,
+        backgroundImage: `url("/headerBG.png"), linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95))`,
         backgroundBlendMode: "overlay",
         position: "relative",
       }}
