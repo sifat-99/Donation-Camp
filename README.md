@@ -1,8 +1,9 @@
-# React + Vite
+# Projects features
+1. This is a simple project for donation management system.
+2. we can donate, add, search, view all the donations.
+3. we can see the statistics of the donations.
+4. We can see tha details of the donation by clicking on the card.
+5. We can donate multiple fund and we can see the total parcentence of the donation.
+6. We cannot donate more than 100%.
+7. We cannot donate more than 1 time in a fund.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
