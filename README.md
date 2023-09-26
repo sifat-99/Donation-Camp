@@ -7,3 +7,10 @@
 6. We cannot donate more than 100%.
 7. We cannot donate more than 1 time in a fund.
 
+
+
+
+# Hare is the link of the project: https://shiny-cajeta-f40af8.netlify.app/
+
+
+Thank you for visiting my project.
