@@ -5,7 +5,7 @@ import Navbar from "../Navbar/Navbar";
 const MainHeader = () => {
     return (
         <div>
-            <div className="px-36">
+            <div className=" px-3 lg:px-36">
             <Navbar></Navbar>
             
             </div>

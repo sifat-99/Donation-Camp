@@ -6,7 +6,7 @@ const Banner = ({ cards }) => {
   const [search, setSearch] = useState("");
   const [clickToSearch, setClickToSearch] = useState("");
   const handleClickToSearch = () => {
-    setClickToSearch(search);
+    setClickToSearch(search.toLowerCase());
   };
   // console.log(clickToSearch)
 

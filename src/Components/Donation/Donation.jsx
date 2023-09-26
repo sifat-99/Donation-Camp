@@ -28,7 +28,7 @@ const Donation = () => {
             {noData}
           </h1>
         ) : (
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mx-32 mt-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mx-2 md:mx-14 lg:mx-32 mt-16">
             {isShow
               ? donationCard.map((card) => (
                   <DonationSingleCard

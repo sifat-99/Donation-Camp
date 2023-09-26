@@ -5,7 +5,7 @@ import PIchart from "../PIchart";
 
 const Statistics = () => {
     return (
-        <div className="mt-32 mx-auto" >
+        <div className="mt-32" >
             <PIchart></PIchart>
         </div>
     );
