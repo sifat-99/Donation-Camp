@@ -8,8 +8,8 @@ const PIchart = () => {
   const datas = localStorage?.getItem('donation')||"[]";
   const dataParse = JSON.parse(datas);
   let donationAmount = 0;
-  dataParse.forEach(element => {
-    donationAmount += element.donation_amount;
+  dataParse.forEach( ()=> {
+    donationAmount += 1;
     
   }
   );
@@ -22,8 +22,8 @@ const PIchart = () => {
 
 let totalAmount = 0;
 
-  data.forEach(element => {
-    totalAmount += element.donation_amount;
+  data.forEach( () => {
+    totalAmount += 1;
     
   }
   );

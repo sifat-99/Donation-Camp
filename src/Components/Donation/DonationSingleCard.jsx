@@ -11,7 +11,7 @@ const DonationSingleCard = ({SingleCard}) => {
         </div>
         <div className='pl-5 pt-4'>
             <button className='px-2 py-2 rounded-lg'  style={{background: `${button_color}`, color: `${text_color}`}}>{button_text}</button>
-            <h1 className=' text-2xl mt-2'>{title}</h1>
+            <h1 className=' text-2xl mt-2 text-[#0B0B0B] font-semibold'>{title}</h1>
             <p className='mt-2' style={{color: `${text_color}`}}>$ {donation_amount}.00</p>
             <button style={{background: `${button_color}`}} className='btn text-white font-semibold text-lg mt-5'>View Details</button>
         </div>

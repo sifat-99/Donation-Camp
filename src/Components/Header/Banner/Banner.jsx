@@ -1,6 +1,20 @@
-const Banner = () => {
+import { useState } from "react";
+import AllCategoryCards from "../../AllCategoryDataCards/AllCategoryCards";
+import PropTypes from 'prop-types'
+
+
+const Banner = ({cards}) => {
+
+  const [search, setSearch] = useState("");
+  const [clickToSearch, setClickToSearch] = useState("");
+  const handleClickToSearch = () => {
+    setClickToSearch(search);
+  }
+  // console.log(clickToSearch)
+  
   return (
-    <section
+    <div>
+      <section
       style={{
         backgroundImage: `url("/headerBG.png"), linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95))`,
         backgroundBlendMode: "overlay",
@@ -13,12 +27,22 @@ const Banner = () => {
           <h1>I Grow By Helping People In Need</h1>
         </div>
         <div className="flex justify-center items-center mt-10">
-          <input className="bg-white border py-4 px-4 rounded-s-lg w-96" type="text" placeholder="Search hare..." />
-          <button className=" px-7 text-white py-4 bg-[#FF444A] rounded-r-lg">Search</button>
+          <input onChange={input => setSearch(input.target.value) } className="bg-white border py-4 px-4 rounded-s-lg w-96" type="text" placeholder="Search hare..." />
+          <button onClick={handleClickToSearch}
+            className=" px-7 text-white py-4 bg-[#FF444A] rounded-r-lg">Search</button>
         </div>
       </div>
     </section>
+    <div>
+      <AllCategoryCards cards={cards} search={clickToSearch}
+      
+      ></AllCategoryCards>
+    </div>
+    </div>
   );
 };
 
+Banner.propTypes = {
+  cards: PropTypes.array.isRequired,
+}
 export default Banner;
