@@ -34,7 +34,7 @@ const CardDetails = () => {
         }
     }
     return (
-        <div className=" px-36 mt-20">
+        <div className=" px-4 md:px-8 lg:px-32 mt-20">
         <div className="relative grid h-[40rem] w-full  flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center">
         <div
             style={{ backgroundImage: `url(${card.image})` }}

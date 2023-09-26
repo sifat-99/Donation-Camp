@@ -21,7 +21,7 @@ const Piechart = ({ donationAmount, totalAmount }) => {
   return (
     <div>
       <h2 className="flex justify-center text-6xl font-bold text-centre">Pie Chart</h2>
-      <PieChart width={800} height={600}>
+      <PieChart width={400} height={600}>
         <Pie data={data1} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={180} fill='#8884d8'>
           {data1.map((entry, index) => (
             <Cell key={index} fill={COLORS1[index % COLORS1.length]} />
