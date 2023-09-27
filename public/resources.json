@@ -61,7 +61,7 @@
     "bg_color": "#5AC8FA", 
     "button_color": "#FF5733", 
     "text_color": "#0048A6", 
-    "button_text": "Donate",
+    "button_text": "Education",
     "description": "Education is a powerful tool that can pave the way to happiness and a brighter future. The 'Education is the Foundation of Happiness' campaign is dedicated to providing quality education to those in need. Your donation can help unlock opportunities, inspire dreams, and empower individuals to lead fulfilling lives. Join us in the pursuit of happiness through education, and make a positive impact on the world.",
     "donation_amount": 780
   }
@@ -73,7 +73,7 @@
     "bg_color": "#FF573326", 
     "button_color": "#FF573333", 
     "text_color": "#8B0000",
-    "button_text": "Donate",
+    "button_text": "Health",
     "description": "Help us make a difference in maternal healthcare. The 'Supporting Maternal Healthcare' campaign is focused on ensuring safe pregnancies and childbirth for mothers and newborns. Your donation can provide access to quality prenatal care, skilled birth attendants, and essential medical supplies. By supporting maternal health, we can save lives and create healthier futures for mothers and their children.",
     "donation_amount": 250
   },
@@ -84,7 +84,7 @@
     "bg_color": "#FF66A326",
     "button_color": "#FF66A333", 
     "text_color": "#4B0082",
-    "button_text": "Support",
+    "button_text": "Education",
     "description": "Support our mission to empower girls through education. The 'Empower Girls Through Education' campaign is dedicated to providing quality education to girls worldwide. Your donation can help break barriers, create opportunities, and inspire future leaders. Education is the key to gender equality, and by supporting girls' education, we can build a brighter and more inclusive future for all.",
     "donation_amount": 180
   }
@@ -96,7 +96,7 @@
     "bg_color": "#4CAF5026",
     "button_color": "#4CAF5033",
     "text_color": "#004d00", 
-    "button_text": "Support",
+    "button_text": "Nature",
     "description": "Join our mission to combat climate change and preserve our planet's future. The 'Planting Trees for a Greener Tomorrow' campaign aims to reforest and restore critical ecosystems. Your donation can help us plant trees, restore habitats, and offset carbon emissions. Together, we can make a significant impact on our environment and create a greener, more sustainable tomorrow for generations to come.",
     "donation_amount": 150
   }
@@ -108,7 +108,7 @@
     "bg_color": "#4B008226",
     "button_color": "#4B008233", 
     "text_color": "#191970",
-    "button_text": "Donate",
+    "button_text": "Education",
     "description": "The 'Empower Minds: Support Education' campaign is dedicated to ensuring that quality education is accessible to all. Your donation can help provide financial assistance to students, improve classroom resources, and support qualified teachers. Together, we can create a positive and supportive learning environment, empowering young minds to reach their full potential. Join us in the journey to make education a beacon of hope and opportunity for every child.",
     "donation_amount": 430
   },
@@ -119,7 +119,7 @@
     "bg_color": "#FFD70026",
     "button_color": "#FF450033",
     "text_color": "#006400", 
-    "button_text": "Donate",
+    "button_text": "Gift",
     "description": "The 'Gift of Giving: Donate Now' campaign is all about making a difference through your generosity. Join us in our mission to support those in need by making a donation today. Your contribution helps provide essential resources to individuals facing challenges, making a positive impact on their lives. Together, we can create a better tomorrow. Every donation counts!",
     "donation_amount": 170
   },
@@ -130,7 +130,7 @@
     "bg_color": "#65AEDD26",
     "button_color": "#FFB14A33",
     "text_color": "#333333",
-    "button_text": "Donate",
+    "button_text": "Agriculture",
     "description": "The 'Empowering Sustainable Agriculture' initiative is dedicated to revolutionizing our agricultural practices by embracing sustainability, innovation, and community involvement. We strive to create a future where farming not only feeds the world but also nurtures the environment. Through advanced techniques, education, and support for local farmers, we are sowing the seeds of change to ensure food security, reduce our ecological footprint, and empower rural communities. Join us in cultivating a more sustainable and harmonious world for generations to come.",
     "donation_amount": 690
   }
