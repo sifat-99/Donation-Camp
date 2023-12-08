@@ -9,6 +9,14 @@
 
 
 
+# Technology used
+1. React
+2. Daisy UI
+3. React Awesome Components
+
+
+
+
 
 # Hare is the link of the project: https://shiny-cajeta-f40af8.netlify.app/
 
